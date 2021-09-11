@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D8127F826ECE47C009F4EC9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8127F726ECE47C009F4EC9 /* Models.swift */; };
+		6D8127FA26ED268E009F4EC9 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8127F926ED268E009F4EC9 /* Util.swift */; };
+		6D8127FC26ED29A8009F4EC9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8127FB26ED29A8009F4EC9 /* Extensions.swift */; };
 		6DE34EF126ECD4D200EB21C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE34EF026ECD4D200EB21C3 /* AppDelegate.swift */; };
 		6DE34EF326ECD4D200EB21C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE34EF226ECD4D200EB21C3 /* SceneDelegate.swift */; };
 		6DE34EF526ECD4D200EB21C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE34EF426ECD4D200EB21C3 /* ViewController.swift */; };
 		6DE34EF826ECD4D200EB21C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE34EF626ECD4D200EB21C3 /* Main.storyboard */; };
 		6DE34EFA26ECD4D400EB21C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE34EF926ECD4D400EB21C3 /* Assets.xcassets */; };
 		6DE34EFD26ECD4D400EB21C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE34EFB26ECD4D400EB21C3 /* LaunchScreen.storyboard */; };
+		6DE34F0526ECD81700EB21C3 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE34F0426ECD81700EB21C3 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D8127F726ECE47C009F4EC9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		6D8127F926ED268E009F4EC9 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		6D8127FB26ED29A8009F4EC9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		6DE34EED26ECD4D200EB21C3 /* CowinVaccineStatusProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CowinVaccineStatusProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE34EF026ECD4D200EB21C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DE34EF226ECD4D200EB21C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		6DE34EF926ECD4D400EB21C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DE34EFC26ECD4D400EB21C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DE34EFE26ECD4D400EB21C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE34F0426ECD81700EB21C3 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				6DE34EF926ECD4D400EB21C3 /* Assets.xcassets */,
 				6DE34EFB26ECD4D400EB21C3 /* LaunchScreen.storyboard */,
 				6DE34EFE26ECD4D400EB21C3 /* Info.plist */,
+				6DE34F0426ECD81700EB21C3 /* WebService.swift */,
+				6D8127F726ECE47C009F4EC9 /* Models.swift */,
+				6D8127F926ED268E009F4EC9 /* Util.swift */,
+				6D8127FB26ED29A8009F4EC9 /* Extensions.swift */,
 			);
 			path = CowinVaccineStatusProj;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DE34EF526ECD4D200EB21C3 /* ViewController.swift in Sources */,
+				6D8127FA26ED268E009F4EC9 /* Util.swift in Sources */,
 				6DE34EF126ECD4D200EB21C3 /* AppDelegate.swift in Sources */,
+				6DE34F0526ECD81700EB21C3 /* WebService.swift in Sources */,
 				6DE34EF326ECD4D200EB21C3 /* SceneDelegate.swift in Sources */,
+				6D8127F826ECE47C009F4EC9 /* Models.swift in Sources */,
+				6D8127FC26ED29A8009F4EC9 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PGJSL3NV4;
 				INFOPLIST_FILE = CowinVaccineStatusProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5PGJSL3NV4;
 				INFOPLIST_FILE = CowinVaccineStatusProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
